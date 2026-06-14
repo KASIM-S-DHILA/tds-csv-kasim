@@ -3,7 +3,7 @@ name = "tds-csv-kasim"
 version = "0.1.0"
 description = "Quickly explore a CSV file from the command line."
 readme = "README.md"
-license = "MIT"
+license = { file = "LICENSE" }
 requires-python = ">=3.11"
 authors = [{ name = "Kasim Dhilawala", email = "kasimdhilawala@gmail.com" }]
 dependencies = ["typer", "rich>=13", "pandas"]
