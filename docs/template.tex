@@ -1,0 +1,42 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{amsmath}
+\usepackage{xcolor}
+
+\definecolor{tdsblue}{RGB}{79,70,229}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=tdsblue,
+  urlcolor=tdsblue
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{$title$}
+\rhead{$date$}
+\cfoot{\thepage}
+
+\title{\textcolor{tdsblue}{$title$}}
+\author{$author$}
+\date{$date$}
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+$if(highlighting-macros)$
+$highlighting-macros$
+$endif$
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+\newpage
+
+$body$
+
+\end{document}
