@@ -10,6 +10,6 @@ wheels/
 .venv
 
 # Docusaurus build output
-site/
+
 .docusaurus/
 node_modules/
